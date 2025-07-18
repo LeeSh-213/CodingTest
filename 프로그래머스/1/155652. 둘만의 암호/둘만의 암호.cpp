@@ -11,7 +11,7 @@ string solution(string s, string skip, int index) {
     for (char c : s )
     {
         int count = 0; 
-        char current = c;
+        char current = c; 
         
         while (count < index)
         {
