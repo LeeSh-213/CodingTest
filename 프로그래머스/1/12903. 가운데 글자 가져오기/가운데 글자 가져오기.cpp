@@ -8,11 +8,11 @@ string solution(string s) {
     int l = s.length();
     if (l % 2 == 0)
     {
-        return s.substr(l / 2 - 1, 2);
+        answer = s.substr(l / 2 - 1, 2);
     }
     else 
     {
-        return string (1, s[l / 2]);
+        answer = string (1, s[l / 2]);
     }
     return answer;
 }
